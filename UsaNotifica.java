@@ -13,13 +13,13 @@ public class UsaNotifica {
 
 		//aggingo e notifiche email
 		listaNotifiche.add(new EmailNotifica("ciao dalla mail"));
-		listaNotifiche.add(new Notifica("buongiorno dalla mail "));
-		listaNotifiche.add(new Notifica("buonasera dalla mail"));
+		listaNotifiche.add(new EmailNotifica("buongiorno dalla mail "));
+		listaNotifiche.add(new EmailNotifica("buonasera dalla mail"));
 		
 		//aggingo e notifiche sms
-				listaNotifiche.add(new EmailNotifica("ciao dalla SMS"));
-				listaNotifiche.add(new Notifica("buongiorno dalla SMS "));
-				listaNotifiche.add(new Notifica("buonasera dalla SMS"));
+				listaNotifiche.add(new SmsNotifica("ciao dalla SMS"));
+				listaNotifiche.add(new SmsNotifica("buongiorno dalla SMS "));
+				listaNotifiche.add(new SmsNotifica("buonasera dalla SMS"));
 				
 				
 				//con un ciclo for each invoco e faccio stampare 
